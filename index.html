@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h2>A new way of making shift </h2>  <br>
+					<img src="jtekt.png" alt="JTEKT logo">
+				</section>
+				<section><h3>How this work ? </h3> </section>
+				<section>
+					<section data-background="C:/Users/louis/reveal.js/first_try.html">
+						<h3>First screen</h3>
+						<br>
+						<p>selection of the division</p>
+					</section>
+					<section data-background-iframe="http://localhost:8080/first_try.html" data-background-interactive>
+						<h3>a different color when hover</h3>
+					</section>
+
+				</section>
+				<section>
+					<section data-background-iframe="http://localhost:8080/shift.html?pa=page_1" data-background-interactive>
+						<h3>The section screen</h3>
+						<br>
+						<p>Selection of the shift</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>The division</h3>
+					</section>
+					<section>
+						<h3>Possibility to select a project on each line :</h3>
+					</section>
+					<section>
+
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
